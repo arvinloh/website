@@ -3,8 +3,8 @@ import { Experience } from "../types";
 
 const experience: Experience[] = [
   {
-    company: "Google",
-    companyUrl: "https://about.google",
+    company: "Monash University",
+    companyUrl: "#",
     positions: [
       {
         dates: {

@@ -1,8 +1,10 @@
-# Eric's Personal Website
+# Arvin's Personal Website
+
+Thank you Eric Jiang.
 
 This is my new site, you can find this at [https://www.ericjiang.dev](https://www.ericjiang.dev).
 
-It is built with TailwindCSS and NextJS
+It is built with TailwindCSS and NextJS and modified it to my liking.
 
 ## Getting Started
 

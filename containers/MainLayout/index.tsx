@@ -67,13 +67,13 @@ const MainLayout: React.FC<MainLayoutProps> = ({
           //   ></meta>
           // </>
         )}
-        <meta
+        {/* <meta
           property="twitter:url"
           content={`${SITE_CONFIG.urls.BASE_URL}${endpoint}`}
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={pageTitle} />
-        <meta name="twitter:description" content={siteDescription} />
+        <meta name="twitter:description" content={siteDescription} /> */}
       </Head>
 
       <main className="flex flex-1 flex-col">

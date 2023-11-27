@@ -6,11 +6,11 @@ const config = {
     apiKey: process.env.NEXT_PUBLIC_AIRTABLE_API,
     tableId: process.env.NEXT_PUBLIC_AIRTABLE_TABLE_ID,
   },
-  LASTFM: {
-    API_KEY: process.env.NEXT_PUBLIC_LASTFM_API_KEY,
-    BASE_URI: "https://ws.audioscrobbler.com/2.0/",
-    USER_NAME: "lorderikir",
-  },
+  // LASTFM: {
+  //   API_KEY: process.env.NEXT_PUBLIC_LASTFM_API_KEY,
+  //   BASE_URI: "https://ws.audioscrobbler.com/2.0/",
+  //   USER_NAME: "lorderikir",
+  // },
 };
 
 export const SITE_CONFIG = {

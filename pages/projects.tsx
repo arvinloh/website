@@ -13,7 +13,7 @@ function ProjectsPage() {
       customHero={
         <SmallHeroBanner
           title="Projects"
-          description="Whether its a side project, or a product I'm working on at work, I bring my knowledge and energy to help build the most awesome, delightful, secure products for everyone."
+          description="These are some of the current and past software projects that I have worked"
         />
       }
       pageMeta={{

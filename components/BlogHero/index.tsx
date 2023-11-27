@@ -14,7 +14,7 @@ const BlogHero: React.FC<BlogHeroProps> = ({ posts }) => {
     <div className="relative px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
       <div className="relative mx-auto max-w-7xl">
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+          <h2 className="text-3xl font-extrabold font-fira text-gray-900 sm:text-4xl">
             Blogs
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
@@ -52,7 +52,7 @@ const BlogHero: React.FC<BlogHeroProps> = ({ posts }) => {
                 )}
                 <div className="flex flex-1 flex-col justify-between bg-white p-6">
                   <div className="flex-1">
-                    <p className="text-sm font-medium text-indigo-600">
+                    <p className="text-sm font-medium font-fira text-indigo-600">
                       <a
                         href={`/blog/category/${post.data.category.uid}`}
                         className="hover:underline"
@@ -61,7 +61,7 @@ const BlogHero: React.FC<BlogHeroProps> = ({ posts }) => {
                       </a>
                     </p>
                     <a href={`/blog/${post.uid}`} className="mt-2 block">
-                      <p className="text-xl font-semibold text-gray-900">
+                      <p className="text-xl font-semibold font-fira text-gray-900">
                         {prismicH.asText(post.data.title)}
                       </p>
                       <p className="mt-3 text-base text-gray-500">

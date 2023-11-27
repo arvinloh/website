@@ -37,6 +37,15 @@ const navigation = {
     //   ),
     // },
     {
+      name: "LinkedIn",
+      href: "https://www.linkedin.com/in/arvinloh-/",
+      icon: (props: SVGProps<SVGSVGElement>) => (
+        <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
+          <path d="M22.225 0H1.77C.79 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.77 24h20.452C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0zM7.237 20.16H3.437V9h3.8v11.16zm-1.9-12.5a2.188 2.188 0 01-2.165-2.199 2.19 2.19 0 012.165-2.197c1.195 0 2.165.985 2.165 2.197 0 1.214-.97 2.199-2.165 2.199zm15.6 12.5h-3.8v-5.569c0-1.328-.026-3.037-1.852-3.037-1.852 0-2.138 1.445-2.138 2.939v5.667H9.248V9h3.645v1.52h.052c.508-.962 1.747-1.977 3.6-1.977 3.853 0 4.56 2.535 4.56 5.83v6.787z" />
+        </svg>
+      ),
+    },
+    {
       name: "GitHub",
       href: "https://github.com/arvinloh",
       icon: (props: SVGProps<SVGSVGElement>) => (

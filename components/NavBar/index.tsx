@@ -12,10 +12,10 @@ import { Navigation } from "../../types/Navigation";
 
 const navigation: Navigation[] = [
   { name: "Blog", href: "/blog" },
-  { name: "Media", href: "/media" },
+  // { name: "Media", href: "/media" },
   // { name: "Talks", href: "/talks" },
   { name: "Projects", href: "/projects" },
-  { name: "About", href: "/about" },
+  { name: "Rizzume", href: "/assets/resume.pdf" },
 ];
 export default function NavBar() {
   const router = useRouter();
@@ -56,7 +56,7 @@ export default function NavBar() {
                             isCurrent
                               ? "bg-gray-900 text-white"
                               : "text-gray-699 hover:bg-gray-700 hover:text-white",
-                            "rounded-md px-3 py-2 text-sm font-medium"
+                            "rounded-md px-3 py-2 text-sm font-medium font-fira"
                           )}
                         >
                           <Link
@@ -89,7 +89,7 @@ export default function NavBar() {
                       isCurrent
                         ? "bg-gray-900 text-white"
                         : "text-gray-600 hover:bg-gray-700 hover:text-white",
-                      "block rounded-md px-3 py-2 text-base font-medium"
+                      "block rounded-md px-3 py-2 text-base font-medium font-fira"
                     )}
                     aria-current={isCurrent ? "page" : undefined}
                   >

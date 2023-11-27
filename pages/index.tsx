@@ -17,14 +17,14 @@ const Home: NextPage<HomePageProps> = ({ posts }) => {
       showHero={true}
       pageTitle="Home"
       pageMeta={{
-        description: "G'day, I'm Eric. I’m a Software Engineer at Google.",
+        description: "I'm Arvin. I’m a Software Engineer at Melbourne.",
         endpoint: "/",
-        imageUrl: "/images/eric-jiang-bitbybit.jpeg",
+        imageUrl: "/images/transparent-eric-profile.png",
       }}
     >
       <div className="container flex flex-1 flex-col">
         <BlogHero posts={posts} />
-
+{/* 
         <div className="relative px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
           <div className="relative mx-auto max-w-7xl">
             <div className="text-center">
@@ -42,7 +42,7 @@ const Home: NextPage<HomePageProps> = ({ posts }) => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </MainLayout>
   );

@@ -9,7 +9,7 @@ const Logo: React.FC = () => {
           src="/images/transparent-arvin-profile.png"
           className="h-12 w-12 rounded-full"
         />
-        <div className="ml-2 hidden text-lg font-bold sm:block">Arvin Loh</div>
+        <div className="ml-2 hidden text-lg font-bold font-fira sm:block">Arvin Loh</div>
       </div>
     </Link>
   );

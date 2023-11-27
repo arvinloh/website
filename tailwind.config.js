@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'fira': ['Fira Code', 'monospace'],
+      },
       animation: {
         "disc-spin": "spin 3s linear infinite",
         'fade-in': 'fadeIn 1s ease-in-out',

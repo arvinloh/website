@@ -21,13 +21,13 @@ function BlogPage(props: BlogPageProps) {
       pageTitle="Blog"
       customHero={
         <SmallHeroBanner
-          title="Blog"
-          description="I occasionally write on my blog about tech, projects, food, reviews (and will add photography and travel in the future)... so here's some of them."
+          title={<div className="font-fira">Blog</div>}
+          description="I would like to share about university, memories and life on my blog."
         />
       }
       pageMeta={{
         description:
-          "I occassionally write on my blog about tech, projects, reviews (and will add photography and travel in the future)... so here's some of them",
+          "I would like to share about university, memories and life on my blog",
         endpoint: "/blog",
       }}
     >
