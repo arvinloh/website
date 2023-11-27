@@ -23,7 +23,8 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "pages/slice-simulator.jsx"
+    // "./pages/slice-simulator.js"
+    "./pages/slice-simulator.tsx"
   ],
   "exclude": [
     "node_modules"

@@ -1,4 +1,4 @@
 {
   "//": "sm.json is deprecated, if you were importing values from this file please now import them from slicemachine.config.json, else you can safely delete this file",
-  "apiEndpoint": "https://arvinloh.prismic.io/api/v2"
+  "apiEndpoint": "https://arvinloh.cdn.prismic.io/api/v2"
 }

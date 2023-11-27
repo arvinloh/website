@@ -17,7 +17,7 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "text_block": {
+            "image_left": {
               "type": "SharedSlice"
             }
           }
