@@ -1,14 +1,14 @@
-// import { GetStaticProps, NextPage } from "next";
-// import moment from "moment";
+import { GetStaticProps, NextPage } from "next";
+import moment from "moment";
 
-// import SlidesViewer from "../../components/PdfViewer/SlidesViewer";
-// import MainLayout from "../../containers/MainLayout";
+import SlidesViewer from "../../components/PdfViewer/SlidesViewer";
+import MainLayout from "../../containers/MainLayout";
 
-// import * as prismicH from "@prismicio/helpers";
+import * as prismicH from "@prismicio/helpers";
 
-// import { createClient } from "../../config/prismic";
-// import { IPrismicDocumentRecord, Talk } from "../../types";
-// import NotFoundPage from "../404";
+import { createClient } from "../../config/prismic";
+import { IPrismicDocumentRecord, Talk } from "../../types";
+import NotFoundPage from "../404";
 
 // type TechTalksPageProps =
 //   | {
@@ -138,3 +138,4 @@
 // };
 
 // export default TechTalk;
+export {}

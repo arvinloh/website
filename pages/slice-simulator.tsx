@@ -13,17 +13,19 @@ import { components } from "../slices";
 //   />
 // );
 
-const SliceSimulatorPage = () => (
-  <SliceSimulator
-    sliceZone={(props) => (
-      <SliceZone
-        {...props}
-        slices={(props.slices as unknown) as SliceLike<string>[]}
-        components={components}
-      />
-    )}
-    state={state as LibrariesStateLike}
-  />
-);
+// const SliceSimulatorPage = () => (
+//   <SliceSimulator
+//     sliceZone={(props) => (
+//       <SliceZone
+//         {...props}
+//         slices={(props.slices as unknown) as SliceLike<string>[]}
+//         components={components}
+//       />
+//     )}
+//     state={state as LibrariesStateLike}
+//   />
+// );
 
-export default SliceSimulatorPage;
+// export default SliceSimulatorPage;
+
+export {}

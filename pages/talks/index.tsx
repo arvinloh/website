@@ -1,13 +1,13 @@
-// import moment from "moment";
-// import { GetStaticProps, NextPage } from "next";
+import moment from "moment";
+import { GetStaticProps, NextPage } from "next";
 
-// import * as prismicH from "@prismicio/helpers";
+import * as prismicH from "@prismicio/helpers";
 
-// import SmallHeroBanner from "../../components/SmallHeroBanner";
-// import MainLayout from "../../containers/MainLayout";
+import SmallHeroBanner from "../../components/SmallHeroBanner";
+import MainLayout from "../../containers/MainLayout";
 
-// import { createClient } from "../../config/prismic";
-// import { Talk } from "../../types";
+import { createClient } from "../../config/prismic";
+import { Talk } from "../../types";
 
 // interface PageProps {
 //   talks: Talk[];
@@ -100,3 +100,5 @@
 // };
 
 // export default TalksPage;
+
+export {}
