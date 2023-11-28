@@ -11,7 +11,7 @@ export default class BlogFeedRss extends React.Component {
     }
     const client = createClient();
 
-    const posts = await client.getAllByType("blog-post", {
+    const posts = await (client as any).getAllByType("blog-post", {
       orderings: {
         field: "document.last_publication_date",
         direction: "desc",

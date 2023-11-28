@@ -35,7 +35,7 @@ export const OpenGraphPage = async (req: any) => {
   let shouldHideLogo = Boolean(searchParamShouldHideLogo) || false;
 
   if (blogPost) {
-    const post = (await prismicClient
+    const post = (await (prismicClient as any)
       .getByUID("blog-post", blogPost)
       .catch(() => null)) as IPrismicDocumentRecord;
     if (post) {
@@ -52,9 +52,8 @@ export const OpenGraphPage = async (req: any) => {
       }
     }
   }
-
   if (techTalk) {
-    const talk = (await prismicClient
+    const talk = (await (prismicClient as any)
       .getByUID("tech-talk", techTalk)
       .catch(() => null)) as IPrismicDocumentRecord;
 

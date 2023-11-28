@@ -47,7 +47,7 @@ function BlogPage(props: BlogPageProps) {
 export const getStaticProps: GetStaticProps = async ({ previewData }) => {
   const client = createClient({ previewData });
 
-  const page = await client.getAllByType("blog-post", {
+  const page = await (client as any).getAllByType("blog-post", {
     orderings: {
       field: "document.last_publication_date",
       direction: "desc",

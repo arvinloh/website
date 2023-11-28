@@ -64,7 +64,7 @@ export const getStaticProps: GetStaticProps = async ({
 
   let category;
   try {
-    category = await client.getByUID("category", uid);
+    category = await (client as any).getByUID("category", uid);
   } catch (e) {
     return {
       props: {
@@ -74,7 +74,7 @@ export const getStaticProps: GetStaticProps = async ({
     };
   }
 
-  const posts = await client.getAllByType("blog-post", {
+  const posts = await (client as any).getAllByType("blog-post", {
     predicates: [predicate.at("my.blog-post.category", category.id as string)],
     orderings: {
       field: "document.last_publication_date",
@@ -90,14 +90,14 @@ export const getStaticProps: GetStaticProps = async ({
 export const getStaticPaths = async () => {
   const client = createClient();
 
-  const blogPosts = await client.getAllByType("blog-post", {
+  const blogPosts = await (client as any).getAllByType("blog-post", {
     orderings: {
       field: "document.last_publication_date",
       direction: "desc",
     },
   });
 
-  const paths = blogPosts.map((post) => {
+  const paths = blogPosts.map((post: { uid: string }) => {
     return { params: { uid: post.uid } };
   });
   return { paths, fallback: "blocking" };

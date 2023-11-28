@@ -68,7 +68,7 @@ export const getStaticProps: GetStaticProps = async ({
 
   const uid = params?.uid as string;
 
-  const album = await client.getByUID("album", uid);
+  const album = await (client as any).getByUID("album", uid);
 
   return {
     props: {
@@ -80,13 +80,13 @@ export const getStaticProps: GetStaticProps = async ({
 export const getStaticPaths = async () => {
   const client = createClient();
 
-  const albumPages = await client.getAllByType("album", {
+  const albumPages = await (client as any).getAllByType("album", {
     orderings: {
       field: "document.last_publication_date",
       direction: "desc",
     },
   });
-  const paths = albumPages.map((album) => {
+  const paths = albumPages.map((album: { uid: string }) => {
     return { params: { uid: album.uid } };
   });
   return { paths, fallback: "blocking" };

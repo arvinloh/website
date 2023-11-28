@@ -71,14 +71,14 @@ const AlbumHomePage: NextPage<AlbumHomePageProps> = ({ albums }) => {
 export const getStaticProps: GetStaticProps = async ({ previewData }) => {
   const client = createClient({ previewData });
 
-  const pages = await client.getAllByType("album", {
+  const pages = await (client as any).getAllByType("album", {
     orderings: {
       field: "document.date",
       direction: "desc"
     }
   })
 
-  const albums = pages.map((page) => {
+  const albums = pages.map((page: { [key: string]: any }) => {
     return page
   })
 

@@ -7,9 +7,9 @@ export default function Hero() {
             <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:flex lg:items-center lg:px-0 lg:text-left">
               <div className="lg:py-24">
                 <h1 className="mt-4 text-2xl font-extrabold tracking-tight text-maroon sm:mt-5 sm:text-4xl lg:mt-6 xl:text-5xl">
-                  <span className="block">Heya! I'm Arvin</span>
+                  <span className="block">Heya! I&apos;m Arvin</span>
                   <span className="block text-rich-black">
-                    & I'm a Software Engineer
+                    & I&apos;m a Software Engineer
                   </span>
                 </h1>
                 <p className="mt-3 text-lg text-gray-500 sm:mt-5 sm:text-2xl lg:text-xl xl:text-2xl">
