@@ -15,7 +15,7 @@ const navigation: Navigation[] = [
   // { name: "Media", href: "/media" },
   // { name: "Talks", href: "/talks" },
   { name: "Projects", href: "/projects" },
-  { name: "Rizzume", href: "/assets/resume.pdf" },
+  { name: "Resume", href: "/assets/resume.pdf" },
   { name: "About", href: "/about"},
 ];
 export default function NavBar() {
