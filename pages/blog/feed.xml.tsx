@@ -5,7 +5,7 @@ import { createClient } from "../../config/prismic";
 import { generateFeed } from "../../utils/feed";
 
 export default class BlogFeedRss extends React.Component {
-  static async getInitialProps({ res }: NextPageContext) {
+  static async getStaticProps({ res }: NextPageContext) {
     if (!res) {
       return;
     }

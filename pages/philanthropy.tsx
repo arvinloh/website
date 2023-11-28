@@ -94,4 +94,8 @@
 
 // export default PhilanthropyPage;
 
-export {};
+const MyPage = () => {
+    // Page content
+  };
+  
+export default MyPage;

@@ -101,4 +101,8 @@ import { Talk } from "../../types";
 
 // export default TalksPage;
 
-export {}
+const MyPage = () => {
+    // Page content
+  };
+  
+export default MyPage;

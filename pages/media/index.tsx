@@ -117,4 +117,8 @@
 
 // export default MediaPage;
 
-export {};
+const MyPage = () => {
+    // Page content
+  };
+  
+  export default MyPage;

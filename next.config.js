@@ -4,6 +4,7 @@ const { version } = require('./package.json');
 const nextConfig = {
   reactStrictMode: true,
   images: {
+    unoptimized: true,
     domains: ["images.unsplash.com"],
   },
   publicRuntimeConfig: {

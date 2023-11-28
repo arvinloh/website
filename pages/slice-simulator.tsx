@@ -28,4 +28,8 @@ import { components } from "../slices";
 
 // export default SliceSimulatorPage;
 
-export {}
+const MyPage = () => {
+  // Page content
+};
+
+export default MyPage;

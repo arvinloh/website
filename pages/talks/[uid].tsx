@@ -138,4 +138,9 @@ import NotFoundPage from "../404";
 // };
 
 // export default TechTalk;
-export {}
+
+const MyPage = () => {
+    // Page content
+  };
+  
+export default MyPage;

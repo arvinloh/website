@@ -28,7 +28,7 @@ const NotFoundPage: NextPage<NotFoundPageProps> = ({ reason }) => {
             <p className="mt-1 font-semibold text-gray-500">{reason}</p>
           </div>
         )}
-        <img src="/images/ericshrug.png" className="block h-1/2 w-1/2" />
+        {/* <img src="/images/ericshrug.png" className="block h-1/2 w-1/2" /> */}
       </div>
     </MainLayout>
   );
