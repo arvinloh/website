@@ -3,5 +3,5 @@
   "repositoryName": "arvinloh",
   "adapter": "@slicemachine/adapter-next",
   "libraries": ["./slices"],
-  "localSliceSimulatorURL": "http://localhost:3000/"
+  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
 }
