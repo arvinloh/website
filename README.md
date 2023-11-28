@@ -1,4 +1,5 @@
-# (Ongoing Work) My website
+# (Ongoing Work) The website
+Working on the Blog Section as the API for Prismic has not been integrated perfectly
 
 You can check out my website at [https://arvinloh.netlify.app](https://arvinloh.netlify.app).
 
