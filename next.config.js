@@ -8,6 +8,8 @@ const nextConfig = {
   },
   publicRuntimeConfig: {
     version,
+    basePath: '/website',
+    assetPrefix: '/website',
   },
 };
 
