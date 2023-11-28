@@ -5,45 +5,47 @@ interface Projects {
   previous: Project[];
 }
 
+// imageUrl: 'https://avatars1.githubusercontent.com/u/18567331?v=4',
+// repoUrl: 'https://github.com/MARIE-js/MARIE.js',
+// screenshotUrl: '/images/projects/mariejs.png',
+// url: 'https://marie.js.org',
+
 const projects: Projects = {
   current: [
     {
       description:
-        'MARIE.js is a very simple and intuitive Assembly Language Simulator. It is a web-based version of the MARIE simulator.',
-      imageUrl: 'https://avatars1.githubusercontent.com/u/18567331?v=4',
-      name: 'MARIE.js',
-      repoUrl: 'https://github.com/MARIE-js/MARIE.js',
-      screenshotUrl: '/images/projects/mariejs.png',
-      url: 'https://marie.js.org',
+        'Monash WAM (Weighted Average Mark) Calculator is a tool that allows Monash University students to calculate their WAM.',
+      name: 'Monash WAM Calculator',
+      url: '', // Add the URL here
     },
   ],
   previous: [
     {
       description:
-        '🐸 Gecko Download Manager is a Chrome Extension that improves downloading lectures 💾 from the Echo360 System.',
+        'Claxon Tournament is an organisation that holds tournament for all popular mobile games',
       imageUrl: 'https://avatars1.githubusercontent.com/u/26992093?v=4',
-      name: 'GeckoDM',
-      repoUrl: 'https://github.com/GeckoDM/GeckoDownloadManager',
-      url: 'https://geckodm.github.io/',
+      name: 'Claxon Tournament',
+      screenshotUrl: '/images/projects/claxon.png',
+      url: 'https://claxontournaments.vercel.app/',
     },
     {
       description:
-        'MonPlan is the official Monash University enterprise course planning tool, built for students by students.',
-      name: 'MonPlan',
-      url: 'https://monplan.apps.monash.edu',
+        'Pong is a classic game that is built using Python and Pygame. It is a two player game that allows players to play against each other',
+      name: 'Pong',
+      url: 'https://github.com/arvinloh/pong',
     },
-    {
-      description:
-        'Tracks flights sourced from various Australian state government websites using automated scraping tool.',
-      name: 'COVID19 Australia Flight Tracker',
-      url: 'https://covid19-flights.ericjiang.dev/',
-    },
-    {
-      description: 'Muhnee is a new and exciting way to make managing your money simple.',
-      imageUrl: 'https://avatars1.githubusercontent.com/u/58194669?v=4',
-      name: 'Muhnee',
-      url: 'https://muhneeapp.com',
-    },
+    // {
+    //   description:
+    //     'Tracks flights sourced from various Australian state government websites using automated scraping tool.',
+    //   name: 'COVID19 Australia Flight Tracker',
+    //   url: 'https://covid19-flights.ericjiang.dev/',
+    // },
+    // {
+    //   description: 'Muhnee is a new and exciting way to make managing your money simple.',
+    //   imageUrl: 'https://avatars1.githubusercontent.com/u/58194669?v=4',
+    //   name: 'Muhnee',
+    //   url: 'https://muhneeapp.com',
+    // },
   ],
 };
 

@@ -4,86 +4,86 @@ import { Experience } from "../types";
 const experience: Experience[] = [
   {
     company: "Monash University",
-    companyUrl: "#",
+    companyUrl: "https://www.monash.edu/",
     positions: [
       {
         dates: {
-          startDate: moment("1 Jan 2023 00:00 +0800"),
+          startDate: moment("Feb 2024 00:00 +0800"),
         },
-        title: "Software Engineer, Pixel Test Engineering",
-      },
-      {
-        dates: {
-          startDate: moment("1 Jan 2021 00:00 +0800"),
-          endDate: moment("1 Feb 2023 00:00 +0800"),
-        },
-        title: "Test Engineer, Pixel Software Security",
-      },
-      {
-        dates: {
-          startDate: moment("20 Apr 2020 00:00 +1000"),
-          endDate: moment("1 Jan 2021 00:00 +0800"),
-        },
-        title: "Test Engineer, Script Automation",
-      },
-    ],
-  },
-  {
-    company: "Monash University",
-    companyUrl: "https://monash.edu/esolutions",
-    positions: [
-      {
-        dates: {
-          startDate: moment("1 Apr 2019 00:00 +1000"),
-          endDate: moment("5 Nov 2019 00:00 +1000"),
-        },
-        title: "Software Engineer - Google Cloud",
-      },
-      {
-        dates: {
-          startDate: moment("5 Dec 2016 00:00 +1000"),
-          endDate: moment("31 Mar 2019 00:00 +1000"),
-        },
-        title: "Junior Software Engineer – MonPlan Founder and Tech Lead",
+        title: "Fastrack Founder 2024",
         description: [
-          `Successfully founded and delivered MonPlan which is the
-            enterprise course planning application for Monash University,
-            from ideation all the way up to an enterprise production
-            application through the multi-million dollar, high-profile
-            Student First program. Which delivered impact to 70000+ students
-            and around 300+ staff. The application enhanced the business
-            processes and the student experience.`,
-          ` Finalist and Winner for itNews 2019 Benchmark Awards – Rising
-            Star Category which is a National Award which recognises a young
-            IT professional who displays exceptional promise and has already
-            clocked up impressive achievements.`,
-          ` Mentored other student development teams which successfully
-            delivered products like SwapMe (class swapping application) and
-            Project Portal (Final Year Project management platform for the
-            Faculty of Engineering) which delivered impact to over 70000
-            students, and overhauled existing tedious processes.`,
-          `
-            Lead the development and replatform of the Student Booklist App
-            and Bulk Messaging Service as part of the University’s
-            Cybersecurity Uplift Project to reduce risk across legacy
-            systems`,
+          `Spearheaded the development and implementation of rapid prototyping techniques,
+          facilitating real-life user testing.`,
+          `Industry Collaboration and Network Expansion: Engaged in a dynamic collaboration 
+          with a wide network of industry partners, including notable organizations like 
+          Next - Reece Group, Shadowboxer, Hypershift Systems LUNA Start-up Studio, 
+          Amazon Web Services, LaunchVic, Xailient, ThinkHQ, Airwallex, etc.`,
+          `Business Acumen: Gained substantial experience in business operations 
+          and strategies, enhancing my understanding of commercial practices and market dynamics`
+        ],
+      },
+      {
+        dates: {
+          startDate: moment("Feb 2024 00:00 +0800"),
+        },
+        title: "Wired - Media",
+      },
+      {
+        dates: {
+          startDate: moment("Jan 2023 00:00 +0800"),
+          endDate: moment("Dec 2023 00:00 +0800"),
+        },
+        title: "Monash Minds Leadership Program",
+        description: [
+          `Guided by a senior student and learn from the stories and experiences of 
+          incredible leaders such as Fulbright Scholar, Khao Cao.`,
+          `Acquired leadership development experience through meaningful hands-on service
+          that addresses real-life needs in the Monash University community.`
         ],
       },
     ],
   },
   {
-    company: "Localz",
-    companyUrl: "https://localz.com",
+    company: "UPlus Real Estate Group",
+    companyUrl: "https://www.realestate.com.au/agency/u-plus-real-estate-glen-waverley-GTGYVO",
     positions: [
       {
         dates: {
-          startDate: moment("5 Dec 2017 00:00 +1000"),
-          endDate: moment("28 Feb 2018 00:00 +1000"),
+          startDate: moment("Mar 2022 00:00 +1000"),
+          endDate: moment("Nov 2022 00:00 +1000"),
         },
-        title: "Intern Software Engineer",
+        title: "Agent Representative",
         description: [
-          "Designed and Built various React Native (RN) ‘Core’ Components for future use in RN Apps, which are highly customisable through internal APIs which allowed components to be reused.",
-          "Designed and built various components for react-native applications which are highly reusable and maintainable through OO Design, ReactJS and Redux Principles, such as the introduction of a modal stack into the core framework of the app.",
+          `Assisted in the preparation of marketing materials and advertisements for
+          properties, including brochures, flyers, and online marketing collateral.`,
+          `Conducted market research and analysis to identify the most suitable
+          target market for the property.`,
+          `Excel proficiency for Investment Property Analysis (IPA) and 
+          Customer Relationship Management (CRM).`,
+          `Utilized digital platforms and traditional advertising methods 
+          to maximize property exposure.`,
+        ],
+      },
+    ],
+  },
+  {
+    company: "Claxon Tournament Pte. Ltd",
+    companyUrl: "https://claxontournaments.vercel.app/",
+    positions: [
+      {
+        dates: {
+          startDate: moment("Sept 2017 00:00 +1000"),
+          endDate: moment("Aug 2020 00:00 +1000"),
+        },
+        title: "Co-Founder/ Managing Director",
+        description: [
+          `Given the opportunity to direct four seasonal tournaments, with each achieving
+           a great amount of success, growing a following of 5,000 members`,
+          `Negotiated terms of partnership with various game creators to organise
+          well-publicized tournaments with large prizepools.`,
+          `Assess and hire staff employees such as digital artists, streamers, and 
+          moderators, and form a community engagement team.`,
+          `Recruited, led and trained a team of 100 volunteers to enhance event experience`
         ],
       },
     ],

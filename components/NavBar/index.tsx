@@ -16,6 +16,7 @@ const navigation: Navigation[] = [
   // { name: "Talks", href: "/talks" },
   { name: "Projects", href: "/projects" },
   { name: "Rizzume", href: "/assets/resume.pdf" },
+  { name: "About", href: "/about"},
 ];
 export default function NavBar() {
   const router = useRouter();
