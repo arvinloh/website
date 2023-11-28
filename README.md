@@ -4,7 +4,7 @@ You can check out my website at [https://arvinloh.netlify.app](https://arvinloh.
 
 It is built with TailwindCSS and NextJS. Powered by Prismic as the headless CMS.
 
-Thank you Eric Jiang. Please check out [https://github.com/ericjiang97](Eric)
+Thank you Eric Jiang. Please check out [Eric](https://github.com/ericjiang97))
 
 ## Getting Started
 
