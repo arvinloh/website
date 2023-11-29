@@ -1,8 +1,10 @@
 import React from "react";
 
 interface SmallHeroBanner {
+  // title?: React.ReactNode;
+  // description?: string;
   title?: React.ReactNode;
-  description?: string;
+  description?: React.ReactNode;
 }
 
 const SmallHeroBanner: React.FC<SmallHeroBanner> = ({ title, description }) => {
