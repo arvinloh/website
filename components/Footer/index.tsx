@@ -99,7 +99,7 @@ export default function Footer() {
         <div className="text-semibold mt-2 text-center text-gray-400">
           Powered by{" "}
           <span className="underline">
-            <Link href="https://vercel.com">Vercel</Link>
+            <Link href="https://www.netlify.com/">Netlify</Link>
           </span>
           {" & "}
           <span className="underline">

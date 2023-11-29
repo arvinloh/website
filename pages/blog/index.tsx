@@ -22,7 +22,7 @@ function BlogPage(props: BlogPageProps) {
       customHero={
         <SmallHeroBanner
           title={<div className="font-fira">Blog</div>}
-          description={<div className="font-thin font-fira">I would like to share about university, memories and life on my blog.</div>}
+          description={<div className="">I would like to share about university, memories and life on my blog.</div>}
         />
       }
       pageMeta={{

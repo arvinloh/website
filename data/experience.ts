@@ -8,7 +8,7 @@ const experience: Experience[] = [
     positions: [
       {
         dates: {
-          startDate: moment("1 Feb 2024 00:00 +0800"),
+          startDate: moment("Feb 2024 00:00 +0800"),
         },
         title: "Fastrack Founder 2024",
         description: [
@@ -24,14 +24,14 @@ const experience: Experience[] = [
       },
       {
         dates: {
-          startDate: moment("1 Feb 2024 00:00 +0800"),
+          startDate: moment("Feb 2024 00:00 +0800"),
         },
         title: "Wired - Media",
       },
       {
         dates: {
-          startDate: moment("5 Jan 2023 00:00 +0800"),
-          endDate: moment("31 Dec 2023 00:00 +0800"),
+          startDate: moment("Jan 2023 00:00 +0800"),
+          endDate: moment("Dec 2023 00:00 +0800"),
         },
         title: "Monash Minds Leadership Program",
         description: [
@@ -49,8 +49,8 @@ const experience: Experience[] = [
     positions: [
       {
         dates: {
-          startDate: moment("1 Mar 2022 00:00 +1000"),
-          endDate: moment("5 Nov 2022 00:00 +1000"),
+          startDate: moment("Mar 2022 00:00 +1000"),
+          endDate: moment("Nov 2022 00:00 +1000"),
         },
         title: "Agent Representative",
         description: [
@@ -72,8 +72,8 @@ const experience: Experience[] = [
     positions: [
       {
         dates: {
-          startDate: moment("20 Sept 2017 00:00 +1000"),
-          endDate: moment("1 Aug 2020 00:00 +1000"),
+          startDate: moment("Sept 2017 00:00 +1000"),
+          endDate: moment("Aug 2020 00:00 +1000"),
         },
         title: "Co-Founder/ Managing Director",
         description: [

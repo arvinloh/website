@@ -16,7 +16,7 @@ const AboutPage: NextPage = () => {
       customHero={
         <SmallHeroBanner
           title={<div className="font-fira">About</div>}
-          description={<div className="font-thin font-fira">
+          description={<div className="">
             I am Arvin Loh, a first year at Monash University in Melbourne, Australia where I majored in Computational Science with mathematics background. <br/> <br/>
             I am planning to build awesome, delightful &amp; secure software.
           </div>}
