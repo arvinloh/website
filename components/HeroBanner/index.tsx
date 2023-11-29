@@ -13,7 +13,7 @@ export default function Hero() {
                   </span>
                 </h1>
                 <p className="mt-3 text-lg text-gray-500 sm:mt-5 sm:text-2xl lg:text-xl xl:text-2xl">
-                  Exploring technology to impact my world.
+                  Exploring technology to impact my world. <br />
                   Building products that empower and inspire.
                 </p>
                 {/* <div className="mt-8 sm:mt-12">

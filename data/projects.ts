@@ -32,6 +32,7 @@ const projects: Projects = {
       description:
         'Pong is a classic game that is built using Python and Pygame. It is a two player game that allows players to play against each other',
       name: 'Pong',
+      repoUrl: 'https://github.com/arvinloh/pong',
       url: 'https://github.com/arvinloh/pong',
     },
     // {

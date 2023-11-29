@@ -15,10 +15,10 @@ const BlogHero: React.FC<BlogHeroProps> = ({ posts }) => {
       <div className="relative mx-auto max-w-7xl">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold font-fira text-gray-900 sm:text-4xl">
-            Blogs
+            Construction
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
-            Here&apos;s some of my blog about tech, projects, reviews
+            Here&apos;s some empty space. I&apos;ll fill it up soon.
           </p>
         </div>
         <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">

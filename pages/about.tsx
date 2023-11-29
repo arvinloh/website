@@ -8,16 +8,20 @@ import SmallHeroBanner from "../components/SmallHeroBanner";
 import MainLayout from "../containers/MainLayout";
 import experience from "../data/experience";
 
+
 const AboutPage: NextPage = () => {
   return (
     <MainLayout
       pageTitle="About"
       customHero={
         <SmallHeroBanner
-          title="About"
-          description="I am Arvin Loh, a first year at Monash University in Melbourne, Australia where I majored in Computational Science with mathematics background. I am planning to build awesome, delightful &amp; secure software."
+          title={<div className="font-fira">About</div>}
+          description={<div className="font-thin font-fira">
+            I am Arvin Loh, a first year at Monash University in Melbourne, Australia where I majored in Computational Science with mathematics background. <br/> <br/>
+            I am planning to build awesome, delightful &amp; secure software.
+          </div>}
         />
-      }
+      }      
       pageMeta={{
         description: `I am studying my course at Monash University in
       Melbourne, Australia where I majored in Computational Science.`,
