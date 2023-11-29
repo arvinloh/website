@@ -15,19 +15,19 @@ export const generateFeed = (posts: IPrismicDocumentRecord[]) => {
     }
   
     const feed = new Feed({
-      title: "Eric Jiang",
+      title: "Arvin Loh",
       description: "Engineer &#124; maker of things",
-      id: "https://ericjiang.dev",
-      copyright: "Copyright (C) Eric Jiang 2016 -",
+      id: "http://arvinloh.netlify.app",
+      copyright: "Copyright (C) Arvin Loh 2023 -",
       language: 'en-AU',
       feedLinks: {
-        xml: "https://ericjiang.dev/blog/feed.xml",
-        json: "https://ericjiang.dev/blog/feed.json",
+        xml: "http://arvinloh.netlify.app/blog/feed.xml",
+        json: "http://arvinloh.netlify.app/blog/feed.json",
       },
       author: {
-        name: "Eric Jiang",
-        email: "eric@ericjiang.dev",
-        link: "https://ericjiang.dev",
+        name: "Arvin Loh",
+        email: "arvin.loh1111@gmail.com",
+        link: "http://arvinloh.netlify.app",
       },
       updated: lastUpdated,
     });
@@ -49,7 +49,7 @@ export const generateFeed = (posts: IPrismicDocumentRecord[]) => {
         title: prismicH.asText(title) as string,
         description: prismicH.asText(summary) as string,
         date: _published_time.toDate(),
-        link: `https://ericjiang.dev/blog/${uid}`,
+        link: `http://arvinloh.netlify.app/blog/${uid}`,
       });
     });
   

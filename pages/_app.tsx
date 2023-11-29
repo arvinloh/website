@@ -119,13 +119,13 @@ const RootComponent: React.FC = ({ children }) => {
         <link
           rel="alternate"
           type="application/rss+xml"
-          title="RSS Feed for ericjiang.dev blog"
+          title="RSS Feed for http://arvinloh.netlify.app blog"
           href="/blog/feed.xml"
         />
         <link
           rel="alternate"
           type="application/rss+json"
-          title="RSS Feed for ericjiang.dev blog"
+          title="RSS Feed for http://arvinloh.netlify.app blog"
           href="/blog/feed.json"
         />
       </Head>

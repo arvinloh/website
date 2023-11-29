@@ -27,7 +27,7 @@ export const OpenGraphPage = async (req: any) => {
 
   const prismicClient = createClient({});
 
-  let imageTitle = searchParamTitle || "EricJiang.dev";
+  let imageTitle = searchParamTitle || "arvinloh.netlify.app";
   let subHeading = searchParamSubHeading || null;
 
   let description = null;
@@ -97,14 +97,14 @@ export const OpenGraphPage = async (req: any) => {
             }}
           >
             <img
-              src="https://ericjiang.dev/icons/android-icon-96x96.png"
+              src="http://arvinloh.netlify.app/icons/android-icon-96x96.png"
               width="1.25rem"
               height="1.25rem"
               style={{
                 borderRadius: "100%",
               }}
             />
-            <span tw="ml-2 text-xl font-semibold">ericjiang.dev</span>
+            <span tw="ml-2 text-xl font-semibold">arvinloh.netlify.app</span>
           </div>
         )}
         <div tw="flex items-center justify-center flex-col px-2 py-2 bg-gray-100 bg-opacity-50 max-w-screen-md">

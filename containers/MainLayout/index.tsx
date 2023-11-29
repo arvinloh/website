@@ -39,41 +39,32 @@ const MainLayout: React.FC<MainLayoutProps> = ({
           />
         )}
         <meta name="og:description" content={siteDescription} />
-        {imageUrl ? (
-          <>
-            <meta name="og:image" content={imageUrl} />
-            <meta name="twitter:image" content={imageUrl}></meta>
-          </>
-        ) : (
-          <>
-            <meta
-              name="og:image"
-              content={`${SITE_CONFIG.urls.BASE_URL}/images/transparent-arvin-profile.png`}
-            />
-            <meta
-              name="twitter:image"
-              content={`${SITE_CONFIG.urls.BASE_URL}/images/transparent-arvin-profile.png`}
-            ></meta>
-          </>
-        // : (
-          // <>
-          //   <meta
-          //     name="og:image"
-          //     content={`https://ericjiang.dev/api/static?title=${_pageTitle}`}
-          //   />
-          //   <meta
-          //     name="twitter:image"
-          //     content={`https://ericjiang.dev/api/static?title=${_pageTitle}`}
-          //   ></meta>
-          // </>
-        )}
-        {/* <meta
-          property="twitter:url"
-          content={`${SITE_CONFIG.urls.BASE_URL}${endpoint}`}
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={pageTitle} />
-        <meta name="twitter:description" content={siteDescription} /> */}
+          {imageUrl ? (
+            <>
+              <meta name="og:image" content={imageUrl} />
+              <meta name="twitter:image" content={imageUrl} />
+            </>
+          ) : (
+            <>
+              <meta
+                name="og:image"
+                content={`${SITE_CONFIG.urls.BASE_URL}/images/transparent-arvin-profile.png`}
+              />
+              <meta
+                name="twitter:image"
+                content={`${SITE_CONFIG.urls.BASE_URL}/images/transparent-arvin-profile.png`}
+              />
+            </>
+          )}
+
+          <meta
+            property="twitter:url"
+            content={`${SITE_CONFIG.urls.BASE_URL}${endpoint}`}
+          />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={pageTitle} />
+          <meta name="twitter:description" content={siteDescription} />
+
       </Head>
 
       <main className="flex flex-1 flex-col">

@@ -20,7 +20,7 @@ export const SITE_CONFIG = {
   `,
   title: "Arvin Loh",
   urls: {
-    BASE_URL: "https://ericjiang.dev",
+    BASE_URL: "https://arvinloh.netlify.app",
   },
 };
 export default config;

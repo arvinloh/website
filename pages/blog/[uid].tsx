@@ -25,7 +25,7 @@ const BlogPost: NextPage<BlogPostProps> = ({ post, similarPosts }) => {
   );
 
   const endpoint = `/blog/${post.uid}`;
-  const postUrl = `https://ericjiang.dev${endpoint}`;
+  const postUrl = `http://arvinloh.netlify.app${endpoint}`;
 
   return (
     <MainLayout
@@ -33,7 +33,7 @@ const BlogPost: NextPage<BlogPostProps> = ({ post, similarPosts }) => {
       pageMeta={{
         endpoint,
         description: prismicH.asText(post.data.summary) || "",
-        imageUrl: `https://ericjiang.dev/api/static?blog=${post.uid}`,
+        imageUrl: `http://arvinloh.netlify.app/api/static?blog=${post.uid}`,
       }}
     >
       <div className="relative overflow-hidden bg-white py-16">
