@@ -101,10 +101,10 @@ export default function Footer() {
           <span className="underline">
             <Link href="https://www.netlify.com/">Netlify</Link>
           </span>
-          {" & "}
-          <span className="underline">
-            <Link href="https://prismic.io/">Prismic</Link>
-          </span>
+          {/* {" & "} */}
+          {/* <span className="underline"> */}
+            {/* <Link href="https://prismic.io/">Prismic</Link> */}
+          {/* </span> */}
           . Built in{" "}
           <span className="underline">
             <Link href="https://nextjs.org/">NextJS</Link>
@@ -115,7 +115,7 @@ export default function Footer() {
           </span>
           . Inspired by{" "}
           <span className="underline">
-            <Link href="https://www.ericjiang.dev">Eric Jiang</Link>
+            <Link href="#">Eric Jiang</Link>
           </span>{" and "}
           <span className="underline">
             <Link href="https://www.saikumarmk.com">Sai Kumar Murali Krishnan</Link>
